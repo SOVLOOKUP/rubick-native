@@ -88,7 +88,6 @@ jobs:
               set -e &&
               rustup target add aarch64-unknown-linux-musl &&
               PKG_CONFIG_SYSROOT_DIR=/ pnpm build --target aarch64-unknown-linux-musl
-
           # - host: ubuntu-22
           #   target: armv7-unknown-linux-gnueabihf
           #   setup: |
